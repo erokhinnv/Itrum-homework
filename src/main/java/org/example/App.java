@@ -21,8 +21,8 @@ public class App
         arr[3] = 1;
         arr[4] = 2;
         arr[5] = 1;
-        HashMap<Integer, Integer> result;
-        result = (HashMap<Integer, Integer>) frequencyCheck(arr);
+        Map<Integer, Integer> result;
+        result = frequencyCheck(arr);
         for (Map.Entry<Integer, Integer> entry : result.entrySet()) {
             System.out.println("Key: " + entry.getKey() + ", Value: " + entry.getValue());
         }
